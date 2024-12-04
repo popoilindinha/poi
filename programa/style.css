@@ -1,0 +1,145 @@
+@font-face {
+    font-family: cute;
+    src: url(Monolite.otf) format('opentype');
+}
+
+@font-face {
+    font-family: cute;
+    src: url(Monolite.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #fdf6f6, #ffe6f1);
+    color: #333;
+}
+
+/* Navegação */
+header {
+    background: #ffb6c1;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ff6f91;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffe6f1;
+    color: #ff69b4;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #ff69b4;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff85a9;
+}
+
+/* Seções */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #fdf6f6;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff69b4;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.features li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    background: #ffe6f1;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #333;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffb6c1;
+    color: #fff;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #4f94fc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
